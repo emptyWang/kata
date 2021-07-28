@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "de098541b0cfbf244e2152476853564e",
+    "content-hash": "a00222b2c112454e279b01127928831c",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -2300,6 +2300,52 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.10.0"
             },
             "time": "2021-03-09T10:59:23+00:00"
+        },
+        {
+            "name": "zgldh/crc16-php",
+            "version": "v1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zgldh/crc16-php.git",
+                "reference": "5e5ddc5b89358c329dc83526e34e4f61329d18ec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zgldh/crc16-php/zipball/5e5ddc5b89358c329dc83526e34e4f61329d18ec",
+                "reference": "5e5ddc5b89358c329dc83526e34e4f61329d18ec",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Crc16\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "zgldh",
+                    "email": "zgldh@hotmail.com"
+                }
+            ],
+            "description": "crc16 hash methods for PHP",
+            "support": {
+                "issues": "https://github.com/zgldh/crc16-php/issues",
+                "source": "https://github.com/zgldh/crc16-php/tree/v1.1"
+            },
+            "time": "2021-04-10T06:25:24+00:00"
         }
     ],
     "packages-dev": [],
